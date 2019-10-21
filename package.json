@@ -1,6 +1,6 @@
 {
   "name": "@notify-watcher/executor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Executes @notify-watcher watchers",
   "main": "src/index.js",
   "repository": "https://github.com/notify-watcher/executor.git",
