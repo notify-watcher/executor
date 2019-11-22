@@ -28,7 +28,6 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-    "prerelease": "scripts/prerelease.sh",
     "release": "standard-version",
     "postrelease": "git push --follow-tags && gh-release -y && npm publish"
   },
@@ -44,7 +43,6 @@
     "eslint-config-prettier": "^6.4.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-prettier": "^3.1.1",
-    "gh-release": "^3.5.0",
     "prettier": "^1.18.2",
     "standard-version": "^7.0.0"
   }
