@@ -29,7 +29,7 @@
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
     "release": "standard-version",
-    "postrelease": "git push --follow-tags && gh-release -y && npm publish"
+    "postrelease": "git push --follow-tags && npm publish"
   },
   "dependencies": {
     "axios": "^0.19.0",
